@@ -1,0 +1,32 @@
+.theme-gray,
+.theme-dark {
+    // buttons
+    [md-raised-button]:not(.md-primary):not(.md-accent):not(.md-warn) {
+        color: $body-color;
+    }
+
+    // 
+    md-list md-list-item, md-list a[md-list-item], md-nav-list md-list-item, md-nav-list a[md-list-item] {
+        color: $theme_dark_text_color;
+    }
+    md-list [md-subheader], md-nav-list [md-subheader] {
+        color: $theme_dark_text_color_light;
+    }
+
+    // 
+    .md-input-placeholder,
+    .md-select-placeholder {
+        color: $theme_dark_text_color_light;
+    }
+
+
+}
+// for customizer
+.theme-gray,
+.theme-dark {
+    .theme-light {
+        md-list md-list-item, md-list a[md-list-item], md-nav-list md-list-item, md-nav-list a[md-list-item] {
+            color: $body-color;
+        }
+    }
+}
